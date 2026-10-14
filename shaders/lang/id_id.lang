@@ -1,0 +1,70 @@
+screen.RCGI         = Radiance Cascades GI
+screen.VOXELIZATION = Voxelisasi
+screen.ATMOSPHERE   = Atmosfer & Langit
+screen.LIGHTING     = Pencahayaan
+screen.POST         = Post Processing
+screen.MISC         = Lain-lain / Debug
+
+option.RC_LAYER_COUNT      = Jumlah Cascade
+option.RC_CASCADE_RES      = Resolusi Cascade
+option.RC_INTERVAL_SIZE    = Ukuran Interval
+option.RC_INTERVAL_OVERLAP = Overlap Interval
+option.RC_VOXEL_ARRAY_SIZE = Ukuran Array Probe
+option.RC_PROBE_ATTEMPTS   = Percobaan Probe
+option.RC_ADD_PROBES       = Tambah Probe Otomatis
+
+option.TRIANGLE_ARRAY_SIZE     = Ukuran Array Segitiga
+option.VOXELIZATION_DISTANCE   = Jarak Voxelisasi
+option.VOXEL_ARRAY_SIZE        = Ukuran Array Voxel
+option.VOXEL_PROBE_ATTEMPTS    = Percobaan Probe Voxel
+option.VOXELIZE_ENTITIES       = Voxelisasi Entitas
+option.VOXELIZE_BLOCK_ENTITIES = Voxelisasi Block Entity
+option.VOXELIZE_PLAYER         = Voxelisasi Pemain
+option.VOXELIZE_ITEMS          = Voxelisasi Item
+suffix.VOXELIZATION_DISTANCE   = \ blok
+
+option.SUN_INTENSITY        = Kecerahan Matahari
+option.MOON_INTENSITY       = Kecerahan Bulan
+option.SUN_ANGULAR_RADIUS   = Ukuran Matahari
+option.MOON_ANGULAR_RADIUS  = Ukuran Bulan
+option.AIR_DENSITY          = Kepadatan Udara (Rayleigh)
+option.AEROSOL_DENSITY      = Kepadatan Aerosol (Haze)
+option.OZONE_DENSITY        = Kepadatan Ozon
+option.ATMOS_GROUND_ALBEDO  = Albedo Tanah
+option.ATMOS_BASE_ALTITUDE  = Ketinggian Dasar
+option.ATMOS_HEIGHT_SCALE   = Skala Ketinggian Pemain
+option.AERIAL_PERSPECTIVE   = Kekuatan Kabut Jarak Jauh
+option.NIGHT_SKY_BRIGHTNESS = Kecerahan Langit Malam
+option.SKY_STEPS            = Kualitas Langit
+option.sunPathRotation      = Kemiringan Lintasan Matahari
+suffix.ATMOS_BASE_ALTITUDE  = \ km
+suffix.sunPathRotation      = °
+
+option.AEROSOL_DENSITY.comment = Tinggi = langit lebih putih dan berkabut. Rendah = biru tua dan jernih.
+option.OZONE_DENSITY.comment   = Ozon memberi warna biru-ungu pada langit senja.
+option.SKY_STEPS.comment       = Angka lebih tinggi = langit lebih halus tapi lebih berat.
+
+option.SUN_SHADOW_SAMPLES = Sampel Bayangan
+option.SPECULAR_STRENGTH  = Kekuatan Specular
+option.GI_STRENGTH        = Kekuatan GI
+option.GI_SKY_STRENGTH    = Kekuatan Cahaya Langit
+option.GI_SUN_BOUNCE      = Pantulan Cahaya Matahari
+
+option.DYNAMIC_EXPOSURE     = Auto Exposure
+option.ADAPTATION_SPEED     = Kecepatan Adaptasi Mata
+option.EXPOSURE_CALIBRATION = Kalibrasi Exposure
+option.BRIGHTNESS           = Kecerahan
+option.MANUAL_EXPOSURE      = Exposure Manual
+option.BLOOM                = Bloom
+option.BLOOM_STRENGTH       = Kekuatan Bloom
+option.MANUAL_EXPOSURE.comment = Hanya dipakai jika Auto Exposure dimatikan.
+
+option.NORMAL_MAPPING      = Normal Mapping
+option.SHADOW_SOFTNESS     = Kelembutan Bayangan
+option.EMISSION_BRIGHTNESS = Kecerahan Emisi
+option.DEBUG_VIEW          = Tampilan Debug
+
+value.DYNAMIC_EXPOSURE.true  = §aAktif
+value.DYNAMIC_EXPOSURE.false = §cMati
+value.BLOOM.true             = §aAktif
+value.BLOOM.false            = §cMati
